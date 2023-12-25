@@ -1,0 +1,12 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .main-header{
+        margin: auto;
+    }
+
+    .filter-button-container{
+        margin: auto;
+    }
+}
