@@ -1,0 +1,24 @@
+.modal-gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: scroll;
+
+    .car_image{
+        width: 20%;
+        height: 20%;
+        margin: 15px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.previous{
+    cursor: pointer;
+}
+
+.next{
+    cursor: pointer;
+}
